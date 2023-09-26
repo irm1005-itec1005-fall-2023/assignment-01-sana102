@@ -1,62 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
     <title>Assignment 01 - To Be Completed</title>
 
-    <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
 
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
     <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
+ 
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
         line-height: 1.6;
       }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
+   
       img {
         width: 100%;
         display: block;
         margin: 0 auto;
       }
     </style>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!--
-
-      LIST ANY CITATIONS HERE
-
-        * A
-        * B
-
-    -->
-
-    <!--
-
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
-
-    -->
 
     <header> 
-      <h2> Sanrio Characters ʕ•́ᴥ•̀ʔっ♡</h2>
+      <h2 id="Home" > Sanrio Characters ʕ•́ᴥ•̀ʔっ♡</h2>
       <p> Sana's top five sanrio characters! </p>
       <img
       src="https://teeturtle-s3-web.s3.amazonaws.com/accounts/1/collections/818-Sanrio-Hello-Kitty-and-Friends-Collection-Banner-2880x480.jpg" 
@@ -65,17 +38,17 @@
       <nav>
         <h3>Menu</h3>
         <ul>
-          <li><a href="h" > Home</a></li>
-          <li><a href="h" > Characters</a></li>
-          <li><a href="h" > Contact</a></li>
-          <li><a href="h" > Bibliography</a></li>
+          <li><a href="#Home" > Home</a></li>
+          <li><a href="#Characters" > Characters</a></li>
+          <li><a href="#Contact" > Contact</a></li>
+          <li><a href="#Bibliography" > Bibliography</a></li>
 
         </ul>
       </nav>
     </header>
 
     <main>
-      <h1> Characters </h1>
+      <h1 id="Characters" >Characters </h1>
       <img
       src="https://i.pinimg.com/736x/2a/b0/fa/2ab0fa2eca7f39733c1ea77e534c6584.jpg"
       alt="picture of all sanrio characters" >
@@ -130,8 +103,8 @@
         <section> 
           <h2> Keroppi ♡ </h2>
           <p> On the shore of Donut Pond, the biggest and bluest pond nearby, 
-            Keroppi lives with his parents, and siblings in a spacious house. 
-            Keroppi's friends like playing games, particularly baseball and boomerangs.</p>
+            Keroppi lives with his parents, and siblings in a spacious house. 
+            Keroppi's friends like playing games, particularly baseball and boomerangs.</p>
 
             <img
             src="https://i.pinimg.com/736x/89/fd/cb/89fdcb4513d3cfec386ff60766bbdda9--keroppi-sanrio.jpg"
@@ -140,7 +113,7 @@
       </section>
       
       <section> 
-        <h3> Feedback Form (✿◠‿◠) <3</h3>
+        <h3 id="Contact">Feedback Form (✿◠‿◠) <3</h3>
         <form>
           <fieldset>
             <legend>Personal info:</legend>
@@ -182,10 +155,10 @@
       <nav>
         <h3>Menu</h3>
         <ul>
-          <li><a href="h" > Home</a></li>
-          <li><a href="h" > Characters</a></li>
-          <li><a href="h" > Contact</a></li>
-          <li><a href="h" > Bibliography</a></li>
+          <li><a href="Home" > Home</a></li>
+          <li><a href="Characters" > Characters</a></li>
+          <li><a href="Contact" > Contact</a></li>
+          <li><a href="Bibliography" > Bibliography</a></li>
         </ul>
       </nav>
 
@@ -196,7 +169,7 @@
     </footer>
     
     <section>
-      <h2> Bibliography:</h3>
+      <h2 id="Bibliography"> Bibliography:</h3>
         <h3> Sites:</h3>
         <ul>
           <li> Sanrio. (n.d.-a). Cinnamoroll. https://www.sanrio.com/collections/cinnamoroll </li>
