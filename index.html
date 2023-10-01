@@ -1,60 +1,214 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <title>Sanrio Characters</title>
 
-    <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
 
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
     <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
+ 
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
         line-height: 1.6;
       }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
+   
       img {
         width: 100%;
         display: block;
         margin: 0 auto;
       }
     </style>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+
+    <header> 
+      <h2 id="Home" > Sanrio Characters ʕ•́ᴥ•̀ʔっ♡</h2>
+      <p> Sana's top five sanrio characters! </p>
+      <img
+      src="https://teeturtle-s3-web.s3.amazonaws.com/accounts/1/collections/818-Sanrio-Hello-Kitty-and-Friends-Collection-Banner-2880x480.jpg" 
+      alt="picture of a hello kitty banner" >
+
+      <nav>
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#Home" > Home</a></li>
+          <li><a href="#Characters" > Characters</a></li>
+          <li><a href="#Contact" > Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 id="Characters" >Characters </h1>
+      <img
+      src="https://i.pinimg.com/736x/2a/b0/fa/2ab0fa2eca7f39733c1ea77e534c6584.jpg"
+      alt="picture of all sanrio characters" >
+
+      <section>
+        <h2> Hello Kitty ♡</h2>
+        <p> In the outskirts of London, Hello Kitty was born. 
+          Her dearest buddy Mimmy, who is her twin sister, also lives with her parents. 
+          She enjoys making new acquaintances and baking cookies. 
+          It's true what she often says: "You can never have too many friends!" </p>
+
+          <img
+          src="https://clipart-library.com/images/yTkrkj9nc.jpg"
+          alt="picture of hello kitty">
+      </section>
+
+      <section> 
+        <h2> Cinnamonroll ♡ </h2>
+          <p> The official mascot of Cafe Cinnamon is Cinnamoroll. 
+            He occasionally naps on customers' laps and is shy but very nice. 
+            By flapping his enormous ears, he can fly through the air.</p>
+
+            <img
+            src="https://i.pinimg.com/1200x/25/8a/51/258a51a832fd45194cf542360f87429a.jpg"
+            alt="picture of cinnamonroll">
+      </section>
+        
+      <section>
+        <h2> Kuromi ♡ </h2>
+        <p> Kuromi is a tomboy, yet she is actually 
+          incredibly girly underneath her rough appearance.
+           She likes reading romance novels and keeping a diary.</p>
+          
+           <img
+            src="https://i.pinimg.com/originals/3c/3b/70/3c3b7087d741a38b8659633b03ddf8fe.png"
+            alt="image of kuromi">
+      </section>
+
+      <section>
+        <h2> My Melody ♡</h2>
+        <p> In Mariland's forest, my Melody was born. 
+          Her favorite pastime is helping her mother bake cookies, and she enjoys 
+          eating almond pound cake. She adores sharing cake with Flat, 
+          a mouse who is her greatest buddy.
+        </p>
+
+          <img
+          src="https://i.pinimg.com/originals/f8/92/d4/f892d4708e520a165f44c569377bc7aa.jpg"
+          alt="image of my melody" >
+      </section>
+      
+      <section>
+        <h2> Keroppi ♡</h2>
+        <p> On the shore of Donut Pond, the biggest and bluest pond nearby, 
+          Keroppi lives with his parents, and siblings in a spacious house. 
+          Keroppi's friends like playing games, particularly baseball and boomerangs.
+        </p>
+
+        <img
+        src="https://i.pinimg.com/736x/89/fd/cb/89fdcb4513d3cfec386ff60766bbdda9--keroppi-sanrio.jpg"
+        alt="picture of keroppi" >
+      </section>
+
+      <section> 
+        <h3 id="Contact">Feedback Form (✿◠‿◠) ♡</h3>
+        <form> 
+          <fieldset>
+            <legend>Personal info:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autocomplete="name" required/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email" />
+          </fieldset>
+        </form>
+      
+      <fieldset>
+        <legend>Feedback:</legend>
+
+        <label for="topic">Which Sanrio character do you like?:</label>
+        <input type="text" id="topic" name="topic" required />
+        <fieldset>
+          <legend>Submit:</legend>
+
+          <input type="checkbox" id="consent" name="consent" required />
+          <label for="consent">I consent to the use of my feedback.</label>
+
+          <input type="submit" value="Submit Feedback" />
+        </fieldset>
+      </fieldset>
+      </section>
+      
+      <img
+      src="https://i.pinimg.com/originals/c5/ed/fa/c5edface614df9428d86a37197a91126.png"
+      alt="footer of sanrio characters" >
+    </main> 
+
+
+    <footer class="foot">
+      
+      <h2>  Site Footer ˚ ༘♡ ⋆｡˚</h2>
+
+      <nav>
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#Home" > Home</a></li>
+          <li><a href="#Characters" > Characters</a></li>
+          <li><a href="#Contact" > Contact</a></li>
+        </ul>
+      </nav>
+
+      <p>&copy; 2023</p>
+      <img
+      src=" https://i.pinimg.com/736x/66/0f/5f/660f5f82604e06019c6391cdbf29cfdc.jpg"
+      alt="cinnamonroll divider" >
+    </footer>
     <!--
+    <section>
+      <h2 id="Bibliography"> Bibliography:</h3>
+        <h3> Sites:</h3>
+        <ul>
+          <li> Sanrio. (n.d.-a). Cinnamoroll. https://www.sanrio.com/collections/cinnamoroll </li>
+          <li>Sanrio. (n.d.-b). Hello kitty. https://www.sanrio.com/collections/hello-kitty </li>
+          <li> Sanrio. (n.d.-c). Keroppi. https://www.sanrio.com/collections/keroppi  </li>
+          <li> Sanrio. (n.d.-d). Kuromi. https://www.sanrio.com/collections/kuromi  </li>
+          <li> Sanrio. (n.d.-e). My melody. https://www.sanrio.com/collections/my-melody  </li>
+        </ul>
 
-      LIST ANY CITATIONS HERE
+        <h3> Images:</h3>
+        <ul>
+          <li> Cinnamoroll banner in 2023: Hello Kitty Wallpaper, 
+            Banner, Kitty Wallpaper. Pinterest. (2023, June 18). 
 
-        * A
-        * B
+            https://www.pinterest.ph/pin/1035757614296980062/</li>
+          <li>Cute twitter headers, cute headers for Twitter, hello kitty 
+            iphone wallpaper. Pinterest. (2021a, June 4).
+             https://www.pinterest.ca/pin/803751864750792524/</li>
 
+      
+          <li> Hello kitty #1199651 (license: Personal use). hello kitty for name tag - Clip Art Library. (n.d.).
+             https://clipart-library.com/clipart/yTkrkj9nc.htm</li>
+
+          <li> Hello kitty and friends designs. TeeTurtle Fandoms.
+             (n.d.). https://fandoms.teeturtle.com/collections/hello-kitty-and-friends-designs</li>
+
+          <li> Keroppi: Keroppi Wallpaper, sanrio, header banner.
+             Pinterest. (2021b, October 13). 
+             https://www.pinterest.ca/pin/6685099437467833/</li>
+          
+          <li> Kuromi~ cheeky but charming!: My melody wallpaper, Pink Twitter, Sanrio Wallpaper. 
+          Pinterest. (2014, November 28). 
+          https://www.pinterest.ca/pin/441000988486456576/</li>
+
+          <li>Not F2U divider: Novelty sign, divider, Novelty. 
+            Pinterest. (2022, September 18). 
+            https://www.pinterest.ca/pin/756464068677658873/</li>
+
+          <li> マイメロディ【公式】 on Twitter: ヘッダーツイッター, Twitterのヘッダー写真, twitterの背景. 
+            Pinterest. (2018, February 7). 
+            https://www.pinterest.ca/pin/498492252498900861/</li>
+             
+        </ul>
+    </section>
     -->
-
-    <!--
-
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
-
-    -->
-
-    <h1>Assignment 01 - To Be Completed</h1>
   </body>
 </html>
